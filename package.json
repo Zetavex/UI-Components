@@ -1,11 +1,24 @@
 {
   "name": "@shaedow2000/zetavex-ui-components",
+  "author": "Shaedow2000 <shaedow2000@proton.me>",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.12",
   "description": "The UI components library that zetavex apps will use. Made in React.js",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "type": "module",
+  "licence": "Apache v2.0",
+  "repository": "Zetavex/UI-Components",
+  "homepage": "https://github.com/Zetavex/UI-Components/blob/main/README.md",
+  "keywords": [
+    "ui",
+    "components",
+    "component",
+    "react",
+    "reactjs",
+    "tailwindcss",
+    "tailwind"
+  ],
   "files": [
     "dist",
     "LICENSE",
