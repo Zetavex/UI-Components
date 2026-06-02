@@ -38,5 +38,19 @@ npm i zetavex-ui-components
 
 Then start using it by importing the components that you need.
 
-## License
-Project under the `Apache-v2.0` license © Zetavex 2026.
+# Contributing
+
+All contributions are welcome!
+
+Just:
+
+- Make sure to open a PR that is well documented and that solves one, and ONLY one, specific issue, either from an existing open issue or an issue that you opened.
+- PRs with multiple fixes from different unrelated parts will be declined.
+- Unclear PR documentation will automatically make the PR declined.
+- Shady code is unacceptable, and we will decline the PR.
+- Make sure to document the code and add comments, not too many, not too few.
+
+# License
+
+Licensed under the `Apache-2.0 license`. Zetavex © 2026. All rights reserved.
+
