@@ -2,7 +2,7 @@
   "name": "zetavex-ui-components",
   "author": "Shaedow2000 <shaedow2000@proton.me>",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The UI components library that zetavex apps will use. Made in React.js",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
