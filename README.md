@@ -1,16 +1,30 @@
-# React + Vite
+<div align="center">
+  <a href="">
+    <img src="https://assets.zetavex.workers.dev/Zetavex%20full%20logo.svg" width="500" alt="Zetavex logo" />
+  </a>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+<div align="center">
+  
+  ![Static Badge](https://img.shields.io/badge/Apache%20v2.0-r?style=flat&logo=apache&logoColor=white&label=licence&labelColor=green&color=white)
+  ![Static Badge](https://img.shields.io/badge/0.0.12-r?style=flat&logo=npm&logoColor=white&label=version&labelColor=red&color=white)
+  ![Static Badge](https://img.shields.io/badge/Follow%20me-r?style=flat&logo=x&logoColor=white&label=%40shaedow2000&labelColor=black&color=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</div>
 
-## React Compiler
+Special made UI components, in a simple minimalist design yet good and innovative. Using the [React](https://react.dev) Javascript library, and [Tailwindcss](https://tailwindcss.com/).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Getting started
+Install the package with npm:
+```bash
+npm i zetavex-ui-components
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then start using it by importing the components that you need.
+
+## License
+Project under the `Apache-v2.0` license © Zetavex 2026.
