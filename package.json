@@ -1,8 +1,15 @@
 {
   "name": "@shaedow2000/zetavex-ui-components",
-  "private": true,
   "version": "0.0.1",
+  "description": "The UI components library that zetavex apps will use. Made in React.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "type": "module",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
