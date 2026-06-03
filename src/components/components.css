@@ -71,7 +71,7 @@
   }
 
   form button {
-    @apply mt-lg;
+    @apply mt-md;
   }
 
   button,
