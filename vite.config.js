@@ -1,9 +1,8 @@
-import { defineConfig } from "vite";
+import { defineConfig, esmExternalRequirePlugin } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import dts from "vite-plugin-dts";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
@@ -17,17 +16,15 @@ export default defineConfig({
     lib: {
       entry: "src/main.jsx",
       name: "ui-components",
-      fileName: (format) => `index.${format === "es" ? "es.js" : "js"}`,
+      formats: ["es"],
+      fileName: "index",
     },
-    rollupOptions: {
-      external: ["react", "react-dom"],
-      output: {
-        globals: {
-          react: "React",
-          "react-dom": "ReactDOM",
-        },
-        format: "es",
-      },
+    rolldownOptions: {
+      plugins: [
+        esmExternalRequirePlugin({
+          external: [/^react(-dom)?(\/.+)?$/],
+        }),
+      ],
     },
   },
 });

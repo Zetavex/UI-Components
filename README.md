@@ -11,7 +11,7 @@
 <div>
   
   ![Static Badge](https://img.shields.io/badge/Apache%202.0-r?style=flat&logo=apache&logoColor=white&label=licence&labelColor=green&color=white)
-  [![Static Badge](https://img.shields.io/badge/0.0.32-r?style=flat&logo=npm&logoColor=white&label=version&labelColor=red&color=white)](https://www.npmjs.com/package/zetavex-ui-components)
+  [![Static Badge](https://img.shields.io/badge/0.0.33-r?style=flat&logo=npm&logoColor=white&label=version&labelColor=red&color=white)](https://www.npmjs.com/package/zetavex-ui-components)
   ![Static Badge](https://img.shields.io/badge/modern%20looking-grey?style=flat&logo=awesomelists&logoColor=white)
 
   
