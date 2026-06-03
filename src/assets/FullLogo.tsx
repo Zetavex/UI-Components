@@ -1,8 +1,7 @@
 export default function fulllogo() {
   return (
     <svg
-      classname="full-logo-svg"
-      viewbox="0 0 791 188"
+      className="full-logo-svg"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

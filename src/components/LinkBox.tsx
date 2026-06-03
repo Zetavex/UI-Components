@@ -1,6 +1,14 @@
 import { Link } from "react-router";
 
-export default function LinkBox({ message, link, to }) {
+export default function LinkBox({
+  message,
+  link,
+  to,
+}: {
+  message: string;
+  link: string;
+  to: string;
+}) {
   return (
     <div className="redirection">
       <p className="label">{message}</p>

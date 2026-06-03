@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Footer from "../components/Footer";
 import LoadingScreen from "../components/LoadingScreen";
-import "./layouts.css";
 
 import { Outlet } from "react-router";
 import { useNavigation } from "react-router";

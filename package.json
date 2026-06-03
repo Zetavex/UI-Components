@@ -2,10 +2,11 @@
   "name": "zetavex-ui-components",
   "author": "Shaedow2000 <shaedow2000@proton.me>",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The UI components library that zetavex apps will use. Made in React.js",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "types": "dist/types/main.d.ts",
   "type": "module",
   "licence": "Apache-v2.0",
   "repository": "Zetavex/UI-Components",
@@ -26,7 +27,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:types": "tsc",
+    "build": "vite build && npm run build:types",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -34,6 +36,7 @@
     "@tailwindcss/vite": "^4.3.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-router": "^7.16.0",
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
@@ -45,6 +48,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "vite-plugin-dts": "^5.0.2"
   }
 }
