@@ -4,7 +4,7 @@
   }
 
   footer .copyright-section {
-    @apply flex items-center gap-0.5;
+    @apply flex items-center gap-sm;
   }
 
   footer .copyright-section p {
@@ -21,7 +21,7 @@
   }
 
   .secondary-link {
-    @apply text-dark-color dark:text-light-color;
+    @apply text-dark-color/85 dark:text-light-color/85;
   }
 
   .primary-link {
