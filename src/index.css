@@ -2,7 +2,6 @@
 @import "./components/components.css";
 
 @theme {
-  --font-logo: "Space Grotesk", sans-serif;
   --font-jost: "Jost", sans-serif;
 
   --color-dark-color: #0f1a20;
@@ -23,7 +22,7 @@
 }
 
 * {
-  @apply box-border outline-none;
+  @apply box-border outline-none transition-all duration-200;
 }
 *:focus {
   outline: none;

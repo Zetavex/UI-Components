@@ -7,10 +7,6 @@
     @apply flex items-center gap-0.5;
   }
 
-  footer .copyright-section h2 {
-    @apply font-logo text-md md:text-lg text-light-color font-bold;
-  }
-
   footer .copyright-section p {
     @apply text-sm md:text-md;
   }
@@ -25,11 +21,11 @@
   }
 
   .secondary-link {
-    @apply text-main;
+    @apply text-dark-color dark:text-light-color;
   }
 
   .primary-link {
-    @apply text-white;
+    @apply text-main;
   }
 
   .full-logo-svg {
@@ -45,7 +41,7 @@
   }
 
   .top-section div h2 {
-    @apply text-xl font-bold font-logo;
+    @apply text-xl font-bold;
   }
 
   .border-separator {
@@ -53,11 +49,14 @@
   }
 
   .label {
-    @apply text-sm text-main;
+    @apply text-md text-dark-color/90 dark:text-light-color/90;
   }
 
   input {
-    @apply bg-transparent border-2 border-main w-full h-fit rounded-lg px-sm py-xs;
+    @apply bg-transparent border-2 border-main w-full h-fit rounded-xl px-sm py-xs;
+  }
+  input:focus {
+    @apply bg-main/10;
   }
 
   form {
@@ -74,7 +73,7 @@
 
   button,
   .button {
-    @apply font-logo font-medium text-white text-md bg-main px-sm py-xs border-none rounded-lg w-fit cursor-pointer;
+    @apply font-semibold text-light-color text-md bg-transparent border-2 border-main px-sm py-xs rounded-xl w-fit cursor-pointer;
   }
 
   .redirection {
@@ -91,5 +90,17 @@
 
   #loading-screen svg {
     @apply fill-main w-22 h-22 animate-spin;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    button:hover,
+    .button:hover {
+      @apply bg-main;
+    }
+  }
+
+  button:active,
+  .button:active {
+    @apply scale-95;
   }
 }
