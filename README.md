@@ -52,5 +52,5 @@ Just:
 
 # License
 
-Licensed under the `Apache-2.0 license`. Zetavex © 2026. All rights reserved.
+Licensed under the `Apache-2.0 license`. KLIROND © 2026. All rights reserved.
 
